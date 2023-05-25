@@ -1,9 +1,10 @@
-import Image from 'next/image'
+
 
 export default function Home() {
   return (
-    <main >
-     
+    <main>
+      <h1>Hello Next13 🔥</h1>
+      
     </main>
   )
 }
