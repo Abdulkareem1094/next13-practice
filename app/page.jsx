@@ -6,10 +6,9 @@ export default async function Home() {
   )
   const res = await data.json()
   
-  console.log(res)
-  
   return (
     <main>
+      <input className="w-60 h-10 my-6 px-3 border-2 outline-none rounded-2xl" type="search" name="search" id="" />
       <div className="grid grid-cols-fluid gap-10">
         {res.results.map((movie) => (
           <Movie
