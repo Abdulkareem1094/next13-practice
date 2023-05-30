@@ -8,7 +8,9 @@ export default async function Home() {
   
   return (
     <main>
-      <input className="w-60 h-10 my-6 px-3 border-2 outline-none rounded-2xl" type="search" name="search" id="" />
+      <dir className='flex w-full justify-end'>
+        <input className="w-64 h-10 my-6 px-3 border-2 outline-none rounded-2xl" type="search" name="search" id="" />
+      </dir>
       <div className="grid grid-cols-fluid gap-10">
         {res.results.map((movie) => (
           <Movie
